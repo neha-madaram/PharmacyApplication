@@ -29,7 +29,7 @@ class prescriptionCreation extends React.Component{
        
     submitHandler = e => {
       e.preventDefault() //To avoid page refresh 
-      axios.post('http://localhost:8080/patient/prescriptionRequest', this.state)
+      axios.post('http://springsapplication.us-east-1.elasticbeanstalk.com/patient/prescriptionRequest', this.state)
       .then(response => {
         if(response.status==200)
         {
