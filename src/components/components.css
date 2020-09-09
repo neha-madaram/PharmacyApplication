@@ -1,0 +1,59 @@
+.extraSpacing{
+
+    width: 100%;
+    height: 95px;
+  }
+
+  div{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+  }
+  
+
+  .logo{
+    font-weight: bolder;
+    float: left;
+    color: black;
+   
+  }
+
+.float-right{
+  float:right;
+}
+
+
+.text{
+
+  
+  font-size: larger;
+  margin-left: 2em;
+}
+.table {
+  background-color: white;
+
+  color: blue;
+  width: 300px;
+ 
+  top: 50%;
+  left: 30%;
+  position: absolute;
+
+}
+
+.container{
+  border: 1px ;
+  border-color: black;
+  
+}
+.top-buffer { margin-top: 80px;}
+
+.submitButton{
+  background-color: #007bff;
+  color: white;
+  border-radius: 10%;
+  height: 40px;
+  width: 80px;
+ 
+  
+}
+
