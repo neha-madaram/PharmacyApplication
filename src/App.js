@@ -15,20 +15,7 @@ import './App.css'
 
     class App extends React.Component {
 
-      state = { 
-        Loading: true,
-        Person: null
-      };
-      // // async componentDidMount() {
-      // //   const url = "http://localhost:8081/createDrug";
-      // //   const response = await fetch(url);
-      // //   const data = await response.json();
-      // //   this.setState({Person: data, Loading:false})
-      // //   console.log(data);
-      // // }
-
       render() {
-        
         return ( 
 
           <div class="comp">     

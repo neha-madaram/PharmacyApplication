@@ -57,3 +57,40 @@
   
 }
 
+/* Navigationcss */
+
+.navigationlink{
+  list-style-type: none;
+  margin: 0;
+  padding-top: 50px;
+}
+
+.navigationlink .navmenu li {
+  float: right;
+ display:block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none;
+  margin-top: 2em;
+}
+
+.navigationlink .logo{
+  float: left;
+ display:block;
+  color: black;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  margin-top: 1em;
+}
+
+.navigationlink h5{
+  color:black
+}
+
+@media screen and (max-width: 1250px) {
+  .navigationlink .navmenu{
+    display: none;
+  }
+}

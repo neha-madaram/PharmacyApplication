@@ -18,9 +18,4 @@
   }
 
 
-  @media screen and (max-width: 900px) {
-    Navigation{
-      display: none;
-    }
-  }
 

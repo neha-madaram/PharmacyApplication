@@ -38,9 +38,9 @@ class prescriptionCreation extends React.Component{
         }
       })
       .catch(error => {
-        this.setState({errorResponse: error.response})
+        this.setState({errorResponse: error.response.data})
        console.log(this.state.errorResponse);
-        //console.log(error.response.data);
+        console.log(error.response.data);
       })
     }
 

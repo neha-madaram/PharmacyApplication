@@ -13,17 +13,14 @@ class PrescriptionRetrieving extends React.Component{
         patientDetails: [],
         Loading: true,
         showing:true,
-        patientId:'PA12326',
+        patientId:'PA12324',
         isSignedUp: false,
     };
     
-
-    
-
     async componentDidMount() {
         console.log("in component mount")
         const {patientDetails, patientId, isSignedUp } = this.state;
-    axios.get(`http://localhost:8080/patient/getPatientDrugs/?patientId=${patientId}`)
+    axios.get(`http://SpringsApplication.us-east-1.elasticbeanstalk.com/patient/getPatientDrugs/?patientId=${patientId}`)
     .then(res => {
         const patientDetail = res.data
         this.setState({ patientDetails: patientDetail})
